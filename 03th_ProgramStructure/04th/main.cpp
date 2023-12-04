@@ -5,14 +5,12 @@
 
 /* global namespace */
 
-/* 把A::Person放入global namespace, 以后可以使用Person来表示A::Person */
+/* 鎶夾::Person鏀惧叆global namespace, 浠ュ悗鍙互浣跨敤Person鏉ヨ〃绀篈::Person */
 using A::Person;
 
-/* 把C::Dog放入global namespace, 以后可以使用Dog来表示C::Dog */
+/* 鎶奀::Dog鏀惧叆global namespace, 浠ュ悗鍙互浣跨敤Dog鏉ヨ〃绀篊::Dog */
 using C::Dog;
 
-using A::printVersion;
-using C::printVersion;
 
 int main(int argc, char **argv)
 {
