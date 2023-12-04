@@ -12,6 +12,6 @@ person: main.o person.o
 # 	g++ -c -o $@ $<
 # person.o:person.cpp
 # 	g++ -c -o $@ $<
-# 删除所有的.o文件和person应用程序文件
+# 删除所有的.o文件和person应用程序文件，疑问，删掉了person那么为什么执行的时候还可以通过./person来运行person程序
 clean:
 	rm -f *.o person	
